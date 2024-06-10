@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage A1</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <div id="NavBar">
+        <div>HOME PAGE</div>
+        <div><a href="archive.html"><button id="Archive1">Go To Archive</button></a></div>
+    </div>
+    <div id="Container">
+        <div id="ToDoCreate">
+            <div>
+                <input type="text" placeholder="Enter Todo Name" id="toDoName">
+                <select name="Priority" id="P1">
+                    <option value="Low">Low</option>
+                    <option value="Medium">Medium</option>
+                    <option value="High">High</option>
+                </select>
+            </div>
+            <div>
+                <button id="addToDoBtn">Add Todo</button>
+            </div>
+        </div>
+        <div id="TableX1">
+            <table>
+                <tr>
+                        <th>Name</th>
+                        <th>Priority</th>
+                        <th>Status</th>
+                        <th>Delete</th>
+                </tr>
+                <tbody id="cellData">
+                    <!-- To enter todo data from js -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
+<script src="scripts/index.js"></script>

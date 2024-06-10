@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage A1</title>
+    <link rel="stylesheet" href="styles/archive.css">
+</head>
+<body>
+    <div id="NavBar">
+        <div><a href="index.html"><button id="homePage">Go To Home Page</button></a></div>
+        <div>Archive Page</div>
+    </div>
+    <div id="Container">
+        <div id="SelectionBoxes">
+            <div id="filterByPriority">
+                <select name="Priority" id="P2" onchange="PriorityChange()">
+                    <option value="None">Select Priority</option>
+                    <option value="Low">Low</option>
+                    <option value="Medium">Medium</option>
+                    <option value="High">High</option>
+                </select>
+            </div>
+            <div id="filterByStatus">
+                <select name="Status" id="S2" onchange="StatusChange()">
+                    <option value="None">Select Status</option>
+                    <option value="Pending">Pending</option>
+                    <option value="Completed">Completed</option>
+                </select>
+            </div>
+        </div>
+        <div id="TableX1">
+            <table>
+                <tr>
+                        <th>Name</th>
+                        <th>Priority</th>
+                        <th>Status</th>
+                        <th>Restore</th>
+                        <th>Delete</th>
+                </tr>
+                <tbody id="cellData">
+                    <!-- To enter todo data from js -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
+<script src="scripts/archive.js"></script>

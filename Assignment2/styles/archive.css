@@ -1,0 +1,197 @@
+/* *{
+    border: 1px solid;
+    margin: 2px;
+} */
+
+
+#NavBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    /* background-color: #f0f2f5; */
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    padding-bottom: 10px;
+}
+
+#NavBar div:nth-child(2){
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;   
+}
+
+#homePage{
+    font-size: 20px;
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; 
+    transition: 0.3s ease all; 
+}
+
+#homePage:hover{
+    background-color: #3e8e41; 
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+#Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#ToDoCreate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+#ToDoCreate div:nth-child(1){
+    margin-bottom: 50px;
+}
+
+#ToDoCreate button{
+    font-size: 20px;
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; 
+    transition: 0.3s ease all; 
+}
+
+#ToDoCreate button:hover{
+    background-color: #3e8e41; 
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#TableX1{
+    width: 40%;
+    /* height: 300px; */
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+
+#ToDoCreate div:nth-child(1) input{
+    font-size: 20px;
+}
+
+#P1{
+    font-size: 20px;
+}
+
+table,th,td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th{
+    background-color: #4CAF50;
+}
+
+.trow td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+button.delete {
+    background-color: #dc3545;
+}
+
+
+
+.trow button {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.trow button:hover {
+    background-color: #0056b3;
+}
+
+button.delete:hover {
+    background-color: #c82333;
+}
+
+button.status {
+    background-color: #28a745;
+}
+
+button.status:hover {
+    background-color: #218838;
+}
+
+button.restore {
+    background-color: #28a745;
+}
+
+button.restore:hover {
+    background-color: #218838;
+}
+
+.trow td:nth-child(1) { 
+    width: 20%;
+}
+
+.trow td:nth-child(2) { 
+    width: 20%;
+    text-align: center;
+}
+
+.trow td:nth-child(3) { 
+    width: 20%;
+    text-align: center;
+}
+
+
+
+.trow td:nth-child(4) { 
+    width: 20%;
+    text-align: center;
+}
+
+
+.trow td:nth-child(5) { 
+    width: 20%;
+    text-align: center;
+}
+
+
+#SelectionBoxes{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 50px;
+}
+
+#P2, #S2 {
+    font-size: 20px;
+}
